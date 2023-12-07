@@ -48,7 +48,7 @@ const SuperRollyBall = (_props: PageProps) => (
             <Themed.p>
              Hey Welcome to the page for Super Rolly Ball. Like most of this site, it's still under construction.
 
-            Super Rolly Ball is a small physics based platformer about rolling around as a toy in a gacha capsule! **Coming Soon!**
+            Super Rolly Ball is a small physics based platformer about rolling around as a toy in a gacha capsule! <strong>Coming Soon!</strong>
             </Themed.p>
             <Themed.p>
               However, if you want to sign up for the closed beta for Super Rolly Ball you can do so <a href="https://forms.gle/QWXPgS1rVa1eCFLaA">here!</a>
@@ -62,4 +62,4 @@ const SuperRollyBall = (_props: PageProps) => (
 
 export default SuperRollyBall
 
-export const Head: HeadFC = () => <Seo title="404 - Not Found" />
+export const Head: HeadFC = () => <Seo title="Super Rolly Ball" />
